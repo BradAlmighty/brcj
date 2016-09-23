@@ -1,0 +1,44 @@
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#viewDiv {
+	height: 600px;
+	border: 1px solid #bce8f1;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+body {
+	background: #eaeaea;
+}
+
+#cafeBadge, #lotsBadge {
+	margin-right: 2px;
+}
+
+#cafeBtn, #lotsBtn {
+	padding-left: 3px;
+}
+
+#mainList {
+	height: 493px;
+	overflow-y: scroll;
+}
+
+.listItem img {
+	float: left;
+	margin-right: 7px;
+}
+
+.listItem h5 {
+	font-weight: bold;
+	position: relative;
+	top: -6px;
+}
+.hidden {
+	display: none;
+}
